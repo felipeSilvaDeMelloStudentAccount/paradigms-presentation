@@ -1,10 +1,14 @@
 package org.example.model;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
 
-@Getter
+
 @AllArgsConstructor
-public class CreditAccount {
+public class CreditAccount implements Account {
     private double balance;
+
+    @Override
+    public double getBalance() {
+        return balance;
+    }
 }
