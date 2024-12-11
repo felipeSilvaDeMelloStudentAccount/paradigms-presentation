@@ -1,14 +1,7 @@
 package org.example.model;
 
-import lombok.AllArgsConstructor;
-
-
-@AllArgsConstructor
-public class MortgageAccount implements Account {
-    private double balance;
-
-    @Override
-    public double getBalance() {
-        return balance;
+public class MortgageAccount extends AccountCommon implements Account {
+    public MortgageAccount(double balance) {
+        super(balance);
     }
 }
