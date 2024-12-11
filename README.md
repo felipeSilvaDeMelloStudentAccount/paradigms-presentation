@@ -15,3 +15,9 @@ This is the refactored package /src/main/java/org/example/refactored/
 You can look into the Account Interface and AccountCommon abstract classes.
 they enabled me to make the code cleaner and More readable
 When we go to the BankApp the code is a lot more flexible.
+
+
+
+Navigate to this commit to view the changes refactored on the codesmell package
+951404b
+https://github.com/felipeSilvaDeMelloStudentAccount/paradigms-presentation/commit/951404bdbfe160ce855904a081dfa549b341621b
