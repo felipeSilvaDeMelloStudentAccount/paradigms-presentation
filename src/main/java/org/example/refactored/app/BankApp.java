@@ -1,6 +1,6 @@
-package org.example;
+package org.example.refactored.app;
 
-import org.example.model.*;
+import org.example.refactored.model.*;
 
 public class BankApp {
     public static void main(String[] args) {

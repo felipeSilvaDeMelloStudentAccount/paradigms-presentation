@@ -1,4 +1,4 @@
-package org.example.model;
+package org.example.refactored.model;
 
 public abstract class AccountCommon implements Account {
     private final double balance;

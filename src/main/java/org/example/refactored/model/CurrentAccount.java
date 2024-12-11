@@ -1,4 +1,4 @@
-package org.example.model;
+package org.example.refactored.model;
 
 public class CurrentAccount extends AccountCommon implements Account {
     public CurrentAccount(double balance) {
