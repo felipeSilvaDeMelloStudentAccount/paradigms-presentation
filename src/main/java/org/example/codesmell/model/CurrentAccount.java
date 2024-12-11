@@ -1,13 +1,10 @@
 package org.example.codesmell.model;
 
-public class CurrentAccount {
-    private double balance;
+import org.example.refactored.model.Account;
+import org.example.refactored.model.AccountCommon;
 
+public class CurrentAccount extends AccountCommon implements Account {
     public CurrentAccount(double balance) {
-        this.balance = balance;
-    }
-
-    public double getBalance() {
-        return balance;
+        super(balance);
     }
 }

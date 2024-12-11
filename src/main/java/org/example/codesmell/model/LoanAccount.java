@@ -1,13 +1,10 @@
 package org.example.codesmell.model;
 
-public class LoanAccount {
-    private double balance;
+import org.example.refactored.model.Account;
+import org.example.refactored.model.AccountCommon;
 
+public class LoanAccount extends AccountCommon implements Account {
     public LoanAccount(double balance) {
-        this.balance = balance;
-    }
-
-    public double getBalance() {
-        return balance;
+        super(balance);
     }
 }
